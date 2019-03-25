@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap-multiselect/bootstrap-multiselect.css" />
+    <script type="text/javascript" src="bootstrap-multiselect/bootstrap-multiselect.js"></script>
+
+</head>
+
+<body class="js-loading">
+    <div id="loader">
+        <div id="cube-loader">
+            <div class='sk-double-bounce'>
+                <div class='sk-child sk-double-bounce-1'></div>
+                <div class='sk-child sk-double-bounce-2'></div>
+            </div>
+        </div>
+    </div>
+    <!--/Loader-->
+
+    <div id="main" class="header-smoll">
+        <div id="wrapper">
+            <header>
+                <div class="container">
+                    <div class="header_top">
+                        <div class="logo">
+                            <a href="#">
+                                <span class="e">e</span>
+                                <p><span class="metr">МЕТР</span><span class="restate">restate</span></p>
+                            </a>
+                        </div>
+                        <!--.logo-->
+
+                        <div class="header_top-center">
+                            <div id="menu-main">
+                                <div class="cd-nav-trigger">
+                                    <div class="hamburger-menu">
+                                        <div class="bar"></div>
+                                        <div class="bar"></div>
+                                        <div class="bar"></div>
+                                    </div>
+                                </div>
+                                <div class="menu-main_container">
+                                    <div class="container">
+                                        <div class="menu_serch">
+                                            <label>Поиск</label>
+                                            <input type="search" name="search">
+                                        </div>
+                                        <div class="menu-main_flex">
+                                            <nav class="nav">
+                                                <ul>
+                                                    <li><a href="#">Главная</a></li>
+                                                    <li><a href="#">Выбор квартиры</a></li>
+                                                    <li><a href="#">Жилые комплексы</a></li>
+                                                    <li><a href="#">Ипотека</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#">О компании</a></li>
+                                                    <li class="active"><a href="#">Новости</a></li>
+                                                    <li><a href="#">Карта объектов</a></li>
+                                                    <li><a href="#">Контакты</a></li>
+                                                </ul>
+                                            </nav>
+                                            <div class="menu_contacts">
+                                                <p>ООО “Агенство недвижимости
+                                                    <br/>МЕТР.restate”</p>
+                                                <p>185014, Петрозаводск,
+                                                    <br/>Максима Горького 25,
+                                                    <br/>офис 308</p>
+                                                <div class="soc">
+                                                    <a href="#">Вк</a>
+                                                    <a href="#">f</a>
+                                                    <a href="#">ok</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--menu-main_container-->
+                            </div>
+                            <!-- #menu-main -->
+
+                            <nav id="menu">
+                                <ul>
+                                    <li><a href="#">Выбор квартиры </a></li>
+                                    <li class="active"><a href="#">О компании </a></li>
+                                    <li><a href="#">Новости </a></li>
+                                    <li class="mob-none"><a href="#">Контакты</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="favorites">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                        <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)" />
+                                    </svg>
+                                    <span class="value">2</span>
+                                </a>
+                            </div>
+                            <!-- .favorites -->
+                        </div>
+                        <!-- .header_top-center -->
+
+                        <div class="header_contacts contacts-block">
+                            <a href="tel:+7 (812) 649-75-34" class="tel">+7 (812) 649-75-34</a>
+                            <div class="mode">
+                                <p>пн-пт 9:00-21:00</p>
+                                <p>сб-вс 10:00-20:00</p>
+                            </div>
+                        </div>
+                        <!-- .contacts-block -->
+                    </div>
+                    <!-- End .header_top -->
+
+                    <div class="header_middle">
+                        <div class="flex">
+                            <div class="main-txt">
+                                <h1>ЖК “Звезды столиц”</h1>
+                                <p>Оценить комфортную жизнь теперь <span class="txt-red">доступно каждому</span></p>
+                            </div>
+                            <div id="video">
+                                <div id="video_modal" class="modal-block">
+                                    <div class="img"><img src="img/ico/video.png" alt="" /></div>
+                                    <p>Видео о жилом комплексе</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .header_middle -->
+                </div>
+                <!-- End .container -->
+            </header>
+
+            <!-- MODAL-->
+            <div class="modal" data-id="#video_modal">
+                <div class="modal-ov"></div>
+                <div class="modal-content">
+                    <span class="close  close-v">&times;</span>
+                    <div class="video-block">
+                        <div class="video-palay"><img src="img/ico/video.png" alt="" /></div>
+                        <div class="video-pause"><img src="img/ico/pause-button.svg" alt="" /></div>
+                        <video muted="muted" id="video-m">
+                            <source src="img/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                $(document).on("ready", function() {
+                    var modVideo = document.getElementById("video-m");
+                    $(".close-v").click(function() {
+                        modVideo.pause();
+                    });
+                    $(".video-palay").click(function() {
+                        modVideo.play();
+						$(".video-block").addClass('pause');
+                    });
+                    $(".video-pause").click(function() {
+                        modVideo.pause();
+						$(".video-block").removeClass('pause');
+                    });
+                });
+            </script>
+
+            <article class="relative">
+                <section id="best-offer">
+                    <div class="title-block js-animation">
+                        <h2>Лучшие предложения</h2>
+                        <p>Акция: все квартиры со скидкой 3%</p>
+                    </div>
+                    <div id="slider_product" class="fadeEl slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product_block">
+                                        <figure class="item">
+                                            <div class="img"><img src="img/product/img-1.jpg" alt="" /></div>
+                                            <figcaption>
+                                                <div class="top-ico">
+                                                    <div class="sale">%</div>
+                                                    <div class="favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                                            <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <!--.favorites-->
+                                                </div>
+                                                <!-- .tag -->
+                                                <div class="info">
+                                                    <h3>Однокомнатная квартира</h3>
+                                                    <p>ЖК “Две столицы”</p>
+                                                    <div class="flex">
+                                                        <p>1 комната</p>
+                                                        <p>25 м2</p>
+                                                        <p>13 этаж</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>3 539 000 <span>руб.</span></p>
+                                                    </div>
+                                                </div>
+                                                <!-- .info -->
+                                            </figcaption>
+                                            <a href="#" class="link"></a>
+                                        </figure>
+                                    </div>
+                                    <!-- End .product_block -->
+                                </div>
+                                <!-- End .swiper-slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="product_block">
+                                        <figure class="item">
+                                            <div class="img"><img src="img/product/img-1.jpg" alt="" /></div>
+                                            <figcaption>
+                                                <div class="top-ico">
+                                                    <div class="sale">%</div>
+                                                    <div class="favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                                            <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <!--.favorites-->
+                                                </div>
+                                                <!-- .tag -->
+                                                <div class="info">
+                                                    <h3>Однокомнатная квартира</h3>
+                                                    <p>ЖК “Две столицы”</p>
+                                                    <div class="flex">
+                                                        <p>1 комната</p>
+                                                        <p>25 м2</p>
+                                                        <p>13 этаж</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>3 539 000 <span>руб.</span></p>
+                                                    </div>
+                                                </div>
+                                                <!-- .info -->
+                                            </figcaption>
+                                            <a href="#" class="link"></a>
+                                        </figure>
+                                    </div>
+                                    <!-- End .product_block -->
+                                </div>
+                                <!-- End .swiper-slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="product_block">
+                                        <figure class="item">
+                                            <div class="img"><img src="img/product/img-1.jpg" alt="" /></div>
+                                            <figcaption>
+                                                <div class="top-ico">
+                                                    <div class="favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                                            <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <!--.favorites-->
+                                                </div>
+                                                <!-- .tag -->
+                                                <div class="info">
+                                                    <h3>Однокомнатная квартира</h3>
+                                                    <p>ЖК “Две столицы”</p>
+                                                    <div class="flex">
+                                                        <p>1 комната</p>
+                                                        <p>25 м2</p>
+                                                        <p>13 этаж</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>3 539 000 <span>руб.</span></p>
+                                                    </div>
+                                                </div>
+                                                <!-- .info -->
+                                            </figcaption>
+                                            <a href="#" class="link"></a>
+                                        </figure>
+                                    </div>
+                                    <!-- End .product_block -->
+                                </div>
+                                <!-- End .swiper-slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="product_block">
+                                        <figure class="item">
+                                            <div class="img"><img src="img/product/img-1.jpg" alt="" /></div>
+                                            <figcaption>
+                                                <div class="top-ico">
+                                                    <div class="sale">%</div>
+                                                    <div class="favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                                            <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <!--.favorites-->
+                                                </div>
+                                                <!-- .tag -->
+                                                <div class="info">
+                                                    <h3>Однокомнатная квартира</h3>
+                                                    <p>ЖК “Две столицы”</p>
+                                                    <div class="flex">
+                                                        <p>1 комната</p>
+                                                        <p>25 м2</p>
+                                                        <p>13 этаж</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>3 539 000 <span>руб.</span></p>
+                                                    </div>
+                                                </div>
+                                                <!-- .info -->
+                                            </figcaption>
+                                            <a href="#" class="link"></a>
+                                        </figure>
+                                    </div>
+                                    <!-- End .product_block -->
+                                </div>
+                                <!-- End .swiper-slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="product_block">
+                                        <figure class="item">
+                                            <div class="img"><img src="img/product/img-1.jpg" alt="" /></div>
+                                            <figcaption>
+                                                <div class="top-ico">
+                                                    <div class="sale">%</div>
+                                                    <div class="favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                                            <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <!--.favorites-->
+                                                </div>
+                                                <!-- .tag -->
+                                                <div class="info">
+                                                    <h3>Однокомнатная квартира</h3>
+                                                    <p>ЖК “Две столицы”</p>
+                                                    <div class="flex">
+                                                        <p>1 комната</p>
+                                                        <p>25 м2</p>
+                                                        <p>13 этаж</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>3 539 000 <span>руб.</span></p>
+                                                    </div>
+                                                </div>
+                                                <!-- .info -->
+                                            </figcaption>
+                                            <a href="#" class="link"></a>
+                                        </figure>
+                                    </div>
+                                    <!-- End .product_block -->
+                                </div>
+                                <!-- End .swiper-slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="product_block">
+                                        <figure class="item">
+                                            <div class="img"><img src="img/product/img-1.jpg" alt="" /></div>
+                                            <figcaption>
+                                                <div class="top-ico">
+                                                    <div class="sale">%</div>
+                                                    <div class="favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                                            <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <!--.favorites-->
+                                                </div>
+                                                <!-- .tag -->
+                                                <div class="info">
+                                                    <h3>Однокомнатная квартира</h3>
+                                                    <p>ЖК “Две столицы”</p>
+                                                    <div class="flex">
+                                                        <p>1 комната</p>
+                                                        <p>25 м2</p>
+                                                        <p>13 этаж</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>3 539 000 <span>руб.</span></p>
+                                                    </div>
+                                                </div>
+                                                <!-- .info -->
+                                            </figcaption>
+                                            <a href="#" class="link"></a>
+                                        </figure>
+                                    </div>
+                                    <!-- End .product_block -->
+                                </div>
+                                <!-- End .swiper-slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="product_block">
+                                        <figure class="item">
+                                            <div class="img"><img src="img/product/img-1.jpg" alt="" /></div>
+                                            <figcaption>
+                                                <div class="top-ico">
+                                                    <div class="sale">%</div>
+                                                    <div class="favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                                            <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <!--.favorites-->
+                                                </div>
+                                                <!-- .tag -->
+                                                <div class="info">
+                                                    <h3>Однокомнатная квартира</h3>
+                                                    <p>ЖК “Две столицы”</p>
+                                                    <div class="flex">
+                                                        <p>1 комната</p>
+                                                        <p>25 м2</p>
+                                                        <p>13 этаж</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>3 539 000 <span>руб.</span></p>
+                                                    </div>
+                                                </div>
+                                                <!-- .info -->
+                                            </figcaption>
+                                            <a href="#" class="link"></a>
+                                        </figure>
+                                    </div>
+                                    <!-- End .product_block -->
+                                </div>
+                                <!-- End .swiper-slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="product_block">
+                                        <figure class="item">
+                                            <div class="img"><img src="img/product/img-1.jpg" alt="" /></div>
+                                            <figcaption>
+                                                <div class="top-ico">
+                                                    <div class="sale">%</div>
+                                                    <div class="favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                                            <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <!--.favorites-->
+                                                </div>
+                                                <!-- .tag -->
+                                                <div class="info">
+                                                    <h3>Однокомнатная квартира</h3>
+                                                    <p>ЖК “Две столицы”</p>
+                                                    <div class="flex">
+                                                        <p>1 комната</p>
+                                                        <p>25 м2</p>
+                                                        <p>13 этаж</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>3 539 000 <span>руб.</span></p>
+                                                    </div>
+                                                </div>
+                                                <!-- .info -->
+                                            </figcaption>
+                                            <a href="#" class="link"></a>
+                                        </figure>
+                                    </div>
+                                    <!-- End .product_block -->
+                                </div>
+                                <!-- End .swiper-slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="product_block">
+                                        <figure class="item">
+                                            <div class="img"><img src="img/product/img-1.jpg" alt="" /></div>
+                                            <figcaption>
+                                                <div class="top-ico">
+                                                    <div class="sale">%</div>
+                                                    <div class="favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                                            <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)"></path>
+                                                        </svg>
+                                                    </div>
+                                                    <!--.favorites-->
+                                                </div>
+                                                <!-- .tag -->
+                                                <div class="info">
+                                                    <h3>Однокомнатная квартира</h3>
+                                                    <p>ЖК “Две столицы”</p>
+                                                    <div class="flex">
+                                                        <p>1 комната</p>
+                                                        <p>25 м2</p>
+                                                        <p>13 этаж</p>
+                                                    </div>
+                                                    <div class="price">
+                                                        <p>3 539 000 <span>руб.</span></p>
+                                                    </div>
+                                                </div>
+                                                <!-- .info -->
+                                            </figcaption>
+                                            <a href="#" class="link"></a>
+                                        </figure>
+                                    </div>
+                                    <!-- End .product_block -->
+                                </div>
+                                <!-- End .swiper-slide -->
+
+                            </div>
+                            <!--swiper-wrapper-->
+
+                            <!-- Arrows -->
+                            <div class="swiper-button-next"><img src="img/ico/arrow-slider.png" alt="" /></div>
+                            <div class="swiper-button-prev"><img src="img/ico/arrow-slider.png" alt="" /></div>
+                        </div>
+                    </div>
+                    <!-- End #slider-projects -->
+
+                    <script>
+                        var swiper = new Swiper('#slider_product .swiper-container', {
+                            spaceBetween: 30,
+                            centeredSlides: true,
+                            slidesPerView: 'auto',
+                            slideToClickedSlide: true,
+                            initialSlide: 2,
+                            loop: true,
+
+                            // autoplay: false,
+                            navigation: {
+                                nextEl: '#slider_product .swiper-button-next',
+                                prevEl: '#slider_product .swiper-button-prev',
+                            },
+                        });
+                    </script>
+                    
+                    <div class="btn-block">
+                    	<a href="#" class="btn">Подобрать квартиру</a>
+                    </div>
+                </section>
+
+                <section id="residential-complexes" class="residential_index">
+                    <div class="container">
+                        <div class="title-block js-animation"><h2>Коммерческая недвижимость</h2></div>
+                        <div class="residential-complexes">
+                            <figure class="item fadeEl">
+                                <div class="img"><img src="img/residential-complexes/img-2.jpg" alt="" /><img src="img/residential-complexes/img-2_mob.jpg" alt="" class="mob" /></div>
+                                <figcaption>
+                                    <div class="tag">
+                                        <div class="tag-value value-1">Квартиры от 3 млн. руб.</div>
+                                        <div class="tag-value value-2">Уже в продаже</div>
+                                    </div>
+                                    <!-- .tag -->
+                                    <div class="info">
+                                        <h3>ЖК “Звезды столиц”</h3>
+                                        <p>Корпусов 4</p>
+                                        <p>Свободных квартир 56</p>
+                                        <p>Метро звездное</p>
+                                        <p>Московское шоссе 13б</p>
+                                    </div>
+                                    <!-- .info -->
+                                </figcaption>
+                                <a href="#" class="link"></a>
+                            </figure>
+                            <figure class="item fadeEl">
+                                <div class="img"><img src="img/residential-complexes/img-2.jpg" alt="" /><img src="img/residential-complexes/img-2_mob.jpg" alt="" class="mob" /></div>
+                                <figcaption>
+                                    <div class="tag">
+                                        <div class="tag-value value-1">Квартиры от 3 млн. руб.</div>
+                                        <div class="tag-value value-2">Уже в продаже</div>
+                                    </div>
+                                    <!-- .tag -->
+                                    <div class="info">
+                                        <h3>ЖК “Звезды столиц”</h3>
+                                        <p>Корпусов 4</p>
+                                        <p>Свободных квартир 56</p>
+                                        <p>Метро звездное</p>
+                                        <p>Московское шоссе 13б</p>
+                                    </div>
+                                    <!-- .info -->
+                                </figcaption>
+                                <a href="#" class="link"></a>
+                            </figure>
+                            <figure class="item fadeEl">
+                                <div class="img"><img src="img/residential-complexes/img-2.jpg" alt="" /><img src="img/residential-complexes/img-2_mob.jpg" alt="" class="mob" /></div>
+                                <figcaption>
+                                    <div class="tag">
+                                        <div class="tag-value value-1">Квартиры от 3 млн. руб.</div>
+                                        <div class="tag-value value-2">Уже в продаже</div>
+                                    </div>
+                                    <!-- .tag -->
+                                    <div class="info">
+                                        <h3>ЖК “Звезды столиц”</h3>
+                                        <p>Корпусов 4</p>
+                                        <p>Свободных квартир 56</p>
+                                        <p>Метро звездное</p>
+                                        <p>Московское шоссе 13б</p>
+                                    </div>
+                                    <!-- .info -->
+                                </figcaption>
+                                <a href="#" class="link"></a>
+                            </figure>
+                            <figure class="item fadeEl">
+                                <div class="img"><img src="img/residential-complexes/img-3.jpg" alt="" /><img src="img/residential-complexes/img-2_mob.jpg" alt="" class="mob" /></div>
+                                <figcaption>
+                                    <div class="tag">
+                                        <div class="tag-value value-1">Квартиры от 3 млн. руб.</div>
+                                        <div class="tag-value value-3">Скоро в продаже</div>
+                                    </div>
+                                    <!-- .tag -->
+                                    <div class="info">
+                                        <h3>ЖК “Звезды столиц”</h3>
+                                        <p>Корпусов 7</p>
+                                        <p>Свободных квартир 641</p>
+                                        <p>Метро звездное</p>
+                                        <p>Московское шоссе 13б</p>
+                                    </div>
+                                    <!-- .info -->
+                                </figcaption>
+                                <a href="#" class="link"></a>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- End .container -->
+                </section>
+                
+                <section id="about-project">
+                    <div class="container">
+                        <div class="title-block js-animation">
+                            <h2>О проекте</h2>
+                            <p>ЖК «Звезды Столиц» - мы оставили только функциональные метры и добавили все<br/> элементы, необходимые для комфортной жизни по доступной цене.</p>
+                        </div>
+                        <div class="flex fadeEl">
+                            <div class="item">
+                            	<div class="ico ico-1"><img src="img/ico/marker.png" alt=""/></div>
+                                <p>Удобное <br/>расположение</p>
+                            </div>
+                            <div class="item gradient">
+                            	<p>Развитая ифраструктура</p>
+                                <p class="size-smoll">Много важно информации об инфраструктуре жилищного комплекса Звезды столиц. Школы, больницы, детские сады и супер-маркеты, все что нужно для комфортной жизни в одном месте.</p>
+                            </div>
+                            <div class="item">
+                            	<div class="ico ico-2"><img src="img/ico/home.png" alt=""/></div>
+                                <p>Рациональная<br/> архитектура</p>
+                            </div>
+                        </div>
+                    </div><!-- End .container -->
+                </section>
+            </article>
+        </div>
+        <!-- End #wrapper -->
+
+        <footer>
+            <div class="container">
+                <div class="footer_container">
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Выбор квартиры</a></li>
+                            <li><a href="#">Жилые комплексы</a></li>
+                            <li><a href="#">Ипотека</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Карта объектов</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <!-- .footer_menu -->
+                    <div class="footer_contacts contacts-block">
+                        <a href="tel:+7 (812) 649-75-34" class="tel">+7 (812) 649-75-34</a>
+                        <a href="mailto:info@site.ru" class="mail">info@site.ru</a>
+                    </div>
+                    <!-- .contacts-block -->
+                </div>
+            </div>
+            <!-- End .container -->
+        </footer>
+    </div>
+    <!--/Main-->
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

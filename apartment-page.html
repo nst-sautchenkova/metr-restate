@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/ion.rangeSlider.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap-multiselect/bootstrap-multiselect.css" />
+    <script type="text/javascript" src="bootstrap-multiselect/bootstrap-multiselect.js"></script>
+
+</head>
+
+<body class="js-loading">
+    <div id="loader">
+        <div id="cube-loader">
+            <div class='sk-double-bounce'>
+                <div class='sk-child sk-double-bounce-1'></div>
+                <div class='sk-child sk-double-bounce-2'></div>
+            </div>
+        </div>
+    </div>
+    <!--/Loader-->
+
+    <div id="main" class="header-smoll product_header">
+        <div id="wrapper">
+            <header>
+                <div class="container">
+                    <div class="header_top">
+                        <div class="logo">
+                            <a href="#">
+                                <span class="e">e</span>
+                                <p><span class="metr">МЕТР</span><span class="restate">restate</span></p>
+                            </a>
+                        </div>
+                        <!--.logo-->
+
+                        <div class="header_top-center">
+                            <div id="menu-main">
+                                <div class="cd-nav-trigger">
+                                    <div class="hamburger-menu">
+                                        <div class="bar"></div>
+                                        <div class="bar"></div>
+                                        <div class="bar"></div>
+                                    </div>
+                                </div>
+                                <div class="menu-main_container">
+                                    <div class="container">
+                                        <div class="menu_serch">
+                                            <label>Поиск</label>
+                                            <input type="search" name="search">
+                                        </div>
+                                        <div class="menu-main_flex">
+                                            <nav class="nav">
+                                                <ul>
+                                                    <li><a href="#">Главная</a></li>
+                                                    <li><a href="#">Выбор квартиры</a></li>
+                                                    <li><a href="#">Жилые комплексы</a></li>
+                                                    <li><a href="#">Ипотека</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li><a href="#">О компании</a></li>
+                                                    <li class="active"><a href="#">Новости</a></li>
+                                                    <li><a href="#">Карта объектов</a></li>
+                                                    <li><a href="#">Контакты</a></li>
+                                                </ul>
+                                            </nav>
+                                            <div class="menu_contacts">
+                                                <p>ООО “Агенство недвижимости
+                                                    <br/>МЕТР.restate”</p>
+                                                <p>185014, Петрозаводск,
+                                                    <br/>Максима Горького 25,
+                                                    <br/>офис 308</p>
+                                                <div class="soc">
+                                                    <a href="#">Вк</a>
+                                                    <a href="#">f</a>
+                                                    <a href="#">ok</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--menu-main_container-->
+                            </div>
+                            <!-- #menu-main -->
+
+                            <nav id="menu">
+                                <ul>
+                                    <li><a href="#">Выбор квартиры </a></li>
+                                    <li class="active"><a href="#">О компании </a></li>
+                                    <li><a href="#">Новости </a></li>
+                                    <li class="mob-none"><a href="#">Контакты</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="favorites">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12">
+                                        <path class="heart" d="M1078.54,90s-10.3-8.578-5.05-11.384a27.845,27.845,0,0,0,10,0c5.26,2.805-4.95,11.384-4.95,11.384m-0.08-9.344a6.556,6.556,0,0,0-1.06-.869,2.872,2.872,0,0,0-3-.076,1.232,1.232,0,0,0-.74.975,1.977,1.977,0,0,0-.02.248c0,1.891,2.63,4.972,4.9,7.1,2.23-2.117,4.81-5.182,4.81-7.073a2.166,2.166,0,0,0-.01-0.257,1.25,1.25,0,0,0-.76-0.987,2.531,2.531,0,0,0-2.9.008,6.408,6.408,0,0,0-1.22.937" transform="translate(-1072 -78)" />
+                                    </svg>
+                                    <span class="value">2</span>
+                                </a>
+                            </div>
+                            <!-- .favorites -->
+                        </div>
+                        <!-- .header_top-center -->
+
+                        <div class="header_contacts contacts-block">
+                            <a href="tel:+7 (812) 649-75-34" class="tel">+7 (812) 649-75-34</a>
+                            <div class="mode">
+                                <p>пн-пт 9:00-21:00</p>
+                                <p>сб-вс 10:00-20:00</p>
+                            </div>
+                        </div>
+                        <!-- .contacts-block -->
+                    </div>
+                    <!-- End .header_top -->
+
+                    <div class="header_middle">
+                        <div class="main-txt">
+                            <h1>Двухкомнатная квартира № 145</h1>
+                            <div class="flex">
+                                <p>ЖК “Две столицы”</p>
+                                <a href="#" class="back">Вернуться к выбору квартиры</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .header_middle -->
+                </div>
+                <!-- End .container -->
+            </header>
+
+
+            <article class="relative">
+                <section id="apartment-page" class="product-one">
+                    <div class="container">
+                        <div class="product_top">
+                            <div class="img fadeEl fadeEl-left"><img src="img/product/big-1.jpg" alt=""/></div>
+                            <div class="txt fadeEl fadeEl-right">
+                            	<div class="block">
+                                	<div class="item">
+                                        <div class="tit">Площадь</div>
+                                        <p>26,5 м2</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tit">Этаж</div>
+                                        <p>13</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tit">Корпус</div>
+                                        <p>1</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tit">.pdf</div>
+                                        <a href="#">Скачать</a>
+                                    </div>
+                                </div><!--block-->
+                                <div class="block">
+                                	<div class="item">
+                                        <div class="tit">Количество комнат</div>
+                                        <p>Студия</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tit">Секция</div>
+                                        <p>2</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tit">Год сдачи</div>
+                                        <p>2021</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tit">Поделиться</div>
+                                        <div class="soc">
+                                            <a href="#">Вк</a>
+                                            <a href="#">f</a>
+                                            <a href="#">ok</a>
+                                        </div>
+                                    </div>
+                                </div><!--block-->
+                            </div>
+                        </div><!-- product_top -->
+                        
+                        <div class="product_bottom fadeEl">
+                            <div class="l-block">
+                                <a href="#" class="btn">Забронировать</a>
+                                <a href="#" class="plan">План этажа</a>
+                            </div>
+                            <div class="r-block">
+                                <div class="price">2 245 000 <span class="size-smoll">руб.</span></div>
+                                <a href="#" class="add-f">Добавить в избранное</a>
+                            </div>
+                        </div><!--product_bottom-->
+                    </div><!-- End .container -->
+                </section>
+                
+                <section id="calculate-mortgage" class="container">
+                    <div class="title-block js-animation">
+                        <h2>Рассчитать ипотеку</h2>
+                    </div>
+                    <div class="calculate-top fadeEl">
+                        <div class="l-block">
+                        	<div class="tit">Выберите банк</div>
+                            <div id="ps-slider">
+                            	<div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-1.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-2.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-3.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-4.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-5.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-6.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-1.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-2.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-3.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-4.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-5.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                        <div class="swiper-slide">
+                                        	<div class="ps-item">
+                                            	<div class="img"><img src="img/ps/ps-6.png" alt=""/></div>
+                                                <div class="txt">
+                                                	<p>Ставка <span>8%</span></p>
+                                                    <p>до 30 лет <span>до 5 млн. р.</span></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- item swiper-slide-->
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+								<script>
+                                    var swiper = new Swiper('#ps-slider .swiper-container', {
+                                      slidesPerView: 3,
+                                      slidesPerColumn: 2,
+                                      spaceBetween: 20,
+                                      pagination: {
+                                        el: '#ps-slider .swiper-pagination',
+                                        clickable: true,
+                                      },
+                                    });
+                                </script>
+                            </div><!-- #ps-slider -->
+                        </div>
+                        
+                        <div class="r-block">
+                        	<div class="calculate_item">
+                            	<div class="tit">Стоимость квартиры</div>
+                                <div class="range-slider">
+                                    <input type="text" class="price-range" value=" млн. р." />
+                                </div>
+                            </div><!-- calculate_item -->
+                            <div class="calculate_item">
+                            	<div class="tit">Первоначальный взнос</div>
+                                <div class="range-slider">
+                                    <input type="text" class="payment-range" value="" />
+                                </div>
+                            </div><!-- calculate_item -->
+                            <div class="calculate_item">
+                            	<div class="tit">Стоимость квартиры</div>
+                                <div class="range-slider">
+                                    <input type="text" class="time-range" value="" />
+                                </div>
+                            </div><!-- calculate_item -->
+                        </div>
+                    </div><!-- calculate-top -->
+                    
+                    <div class="calculate-bottom fadeEl">
+                        <div class="l-block">
+                        	<p>Рассчет является предварительным и может не отражать действующей процентной ставки банка. <br/>Для уточнения полных условий по ипотеке, подайте заявку и дождитесь звонка менеджера.</p>
+                        </div>
+                        <div class="r-block">
+                            <div class="item">
+                                <div class="tit">Процентная ставка</div>
+                                <div class="rate">7,5 %</div>
+                            </div>
+                            <div class="item">
+                                <div class="tit">Ежемесячный платеж</div>
+                                <div class="price">13 560 <span class="size-smoll">руб.</span></div>
+                                <div class="btn-block"><a href="#" class="btn">Подать заявку на одобрение</a></div>
+                            </div>
+                        </div>
+                    </div><!-- calculate-bottom -->
+                </section>
+            </article>
+        </div>
+        <!-- End #wrapper -->
+
+        <footer>
+            <div class="container">
+                <div class="footer_container">
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Выбор квартиры</a></li>
+                            <li><a href="#">Жилые комплексы</a></li>
+                            <li><a href="#">Ипотека</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Карта объектов</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <!-- .footer_menu -->
+                    <div class="footer_contacts contacts-block">
+                        <a href="tel:+7 (812) 649-75-34" class="tel">+7 (812) 649-75-34</a>
+                        <a href="mailto:info@site.ru" class="mail">info@site.ru</a>
+                    </div>
+                    <!-- .contacts-block -->
+                </div>
+            </div>
+            <!-- End .container -->
+        </footer>
+    </div> 
+    <!--/Main-->
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/ion.rangeSlider.js"></script>
+    <script type="text/javascript" src="js/rangeSlider.js"></script>
+</body>
+
+</html>

@@ -80,3 +80,33 @@ $(document).ready(function(){
 	});		
 })
 
+$(document).ready(function(){
+	$(".product_block .favorites").click(function(){
+		$(this).addClass('add-favorites');
+	})
+})
+
+
+//modal
+$('.modal-block').on('click', function(){
+	var	id =  this.id;
+  $(".modal[data-id='#"+id+"']").toggleClass('open');
+  $(".modal-ov").show("slow");
+  $("body").addClass("open-hidden");
+  
+});
+
+$(".close").click(function () {
+	$(".modal-content").addClass('zoom');
+	$(".modal-content.zoom").css({'transform':'translateY(-100%)'});
+	$(".modal-ov").hide("slow");
+	$("#profit-calculator .sel-tree").removeClass('none');
+	function func() {
+		$(".modal").removeClass("open");
+		$("body").removeClass("open-hidden");
+		$(".modal-content").removeClass('zoom');
+		$(".modal-content").css({'transform':'translateY(0)'});
+	}
+	setTimeout(func, 300);
+	
+});
